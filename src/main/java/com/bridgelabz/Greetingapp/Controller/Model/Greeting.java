@@ -3,10 +3,10 @@ package com.bridgelabz.Greetingapp.Controller.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
+//import javax.persistence.Table;
 
 @Entity
-@Table(name = "greet")
+//@Table(name = "greet")
 public class Greeting {
     @Id
     private int id;
@@ -24,7 +24,7 @@ public class Greeting {
     }
 
 
-    public long getId()
+    public int getId()
     {
         return id;
     }
@@ -33,7 +33,7 @@ public class Greeting {
         this.id = id;
     }
 
-    public String getmessage()
+    public String getMessage()
     {
         return message;
     }

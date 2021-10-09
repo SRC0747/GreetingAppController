@@ -13,6 +13,12 @@ import java.util.Optional;
 @RequestMapping
 @RestController
 public class GreetingAppController {
+    // CRUD
+    //read
+    //creating
+    //updating
+    //deleting
+
     private static final String template = "Hello, %s!";
 
     @Autowired
